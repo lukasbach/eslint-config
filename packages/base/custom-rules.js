@@ -8,6 +8,8 @@ module.exports = {
         'class-methods-use-this': 'off',
         'no-restricted-syntax': 'off',
         'no-await-in-loop': 'off',
+        'import/prefer-default-export': 'off',
+        'no-new': 'warn'
     },
     react: {
         'react/prop-types': 'off',
