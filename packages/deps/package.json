@@ -1,6 +1,6 @@
 {
   "name": "@lukasbach/eslint-config-deps",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "My ESLint base configuration, dependencies included.",
   "keywords": [
     "eslint",
@@ -16,7 +16,7 @@
     "directory": "packages/deps"
   },
   "dependencies": {
-    "@lukasbach/eslint-config-base": "^0.0.6",
+    "@lukasbach/eslint-config-base": "^0.0.7",
     "@typescript-eslint/eslint-plugin": "^5.57.0",
     "@typescript-eslint/parser": "^5.57.0",
     "eslint-config-airbnb": "^19.0.4",
