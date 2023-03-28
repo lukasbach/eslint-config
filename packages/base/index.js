@@ -3,7 +3,7 @@ module.exports = {
         'airbnb-base',
         'airbnb-typescript/base',
         'plugin:prettier/recommended',
-    ].map(require.resolve),
+    ], // .map(require.resolve),
     rules: {
         ...require('./custom-rules').base,
     },
