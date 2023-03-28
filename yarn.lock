@@ -240,7 +240,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@lukasbach/eslint-config-base@^1.0.0, @lukasbach/eslint-config-base@workspace:packages/base":
+"@lukasbach/eslint-config-base@^0.0.5, @lukasbach/eslint-config-base@workspace:packages/base":
   version: 0.0.0-use.local
   resolution: "@lukasbach/eslint-config-base@workspace:packages/base"
   dependencies:
@@ -249,6 +249,7 @@ __metadata:
     "@typescript-eslint/parser": ^5.57.0
     eslint: ^8.36.0
     eslint-config-airbnb: ^19.0.4
+    eslint-config-airbnb-base: ^15.0.0
     eslint-config-airbnb-typescript: ^17.0.0
     eslint-plugin-import: ^2.27.5
     eslint-plugin-jsx-a11y: ^6.7.1
@@ -261,6 +262,7 @@ __metadata:
     "@typescript-eslint/parser": ">=5.57.0"
     eslint: ">=8.36.0"
     eslint-config-airbnb: ">=19.0.4"
+    eslint-config-airbnb-base: ">=15.0.0"
     eslint-config-airbnb-typescript: ">=17.0.0"
     eslint-plugin-import: ">=2.27.5"
     eslint-plugin-jsx-a11y: ">=6.7.1"
@@ -275,12 +277,13 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@lukasbach/eslint-config-deps@workspace:packages/deps"
   dependencies:
-    "@lukasbach/eslint-config-base": ^1.0.0
+    "@lukasbach/eslint-config-base": ^0.0.5
     "@types/node": ^18.15.10
     "@typescript-eslint/eslint-plugin": ^5.57.0
     "@typescript-eslint/parser": ^5.57.0
     eslint: ^8.36.0
     eslint-config-airbnb: ^19.0.4
+    eslint-config-airbnb-base: ^15.0.0
     eslint-config-airbnb-typescript: ^17.0.0
     eslint-plugin-import: ^2.27.5
     eslint-plugin-jsx-a11y: ^6.7.1

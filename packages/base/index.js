@@ -1,6 +1,6 @@
 module.exports = {
     extends: [
-        'airbnb/base',
+        'airbnb-base',
         'airbnb-typescript/base',
         'plugin:prettier/recommended',
     ].map(require.resolve),
