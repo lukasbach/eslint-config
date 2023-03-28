@@ -2,6 +2,7 @@
   "name": "@lukasbach/eslint-config-base",
   "version": "0.0.1",
   "description": "My ESLint base configuration.",
+  "private": false,
   "keywords": [
     "eslint",
     "config",
