@@ -29,3 +29,9 @@ or the following to your `package.json`:
 ```
 
 If you need react, extend from "@lukasbach/base/react" instead.
+
+You can also install "@lukasbach/eslint-config-deps" to get all peer dependencies included as actual dependencies.
+
+```bash
+yarn add @lukasbach/eslint-config-deps --dev
+```
