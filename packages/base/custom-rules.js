@@ -10,6 +10,7 @@ module.exports = {
         'class-methods-use-this': 'off',
         'no-restricted-syntax': 'off',
         'no-await-in-loop': 'off',
+        'no-plusplus': 'off',
         'import/prefer-default-export': 'off',
         "import/extensions": [
             "error",
@@ -18,5 +19,8 @@ module.exports = {
     },
     react: {
         'react/prop-types': 'off',
+        'react/require-default-props': 'off',
+        'react/function-component-definition': 'off',
+        'react/jsx-props-no-spreading': 'off'
     }
 };
