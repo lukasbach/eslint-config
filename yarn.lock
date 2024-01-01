@@ -214,7 +214,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@lukasbach/eslint-config-base@workspace:packages/base"
   dependencies:
-    "@types/node": ^18.15.10
+    "@types/node": ^20.10.6
     "@typescript-eslint/eslint-plugin": ^5.57.0
     "@typescript-eslint/parser": ^5.57.0
     eslint: ^8.36.0
@@ -250,7 +250,7 @@ __metadata:
   resolution: "@lukasbach/eslint-config-deps@workspace:packages/deps"
   dependencies:
     "@lukasbach/eslint-config-base": ^1.0.3
-    "@types/node": ^18.15.10
+    "@types/node": ^20.10.6
     "@typescript-eslint/eslint-plugin": ^5.57.0
     "@typescript-eslint/parser": ^5.57.0
     eslint: ^8.36.0
@@ -803,10 +803,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:^18.15.10":
-  version: 18.15.10
-  resolution: "@types/node@npm:18.15.10"
-  checksum: 9aeae0b683eda82892def5315812bdee3f1a28c4898b7e70f8e2514564538b16c4dccbe8339c1266f8fc1d707a48f152689264a854f5ebc2eba5011e793612d9
+"@types/node@npm:^20.10.6":
+  version: 20.10.6
+  resolution: "@types/node@npm:20.10.6"
+  dependencies:
+    undici-types: ~5.26.4
+  checksum: ada40e4ccbda3697dca88f8d13f4c996c493be6fbc15f5f5d3b91096d56bd700786a2c148a92a2b4c5d1f133379e63f754a786b3aebfc6a7d09fc7ea16dc017b
   languageName: node
   linkType: hard
 
@@ -6911,6 +6913,13 @@ __metadata:
     has-symbols: ^1.0.3
     which-boxed-primitive: ^1.0.2
   checksum: b7a1cf5862b5e4b5deb091672ffa579aa274f648410009c81cca63fed3b62b610c4f3b773f912ce545bb4e31edc3138975b5bc777fc6e4817dca51affb6380e9
+  languageName: node
+  linkType: hard
+
+"undici-types@npm:~5.26.4":
+  version: 5.26.5
+  resolution: "undici-types@npm:5.26.5"
+  checksum: 3192ef6f3fd5df652f2dc1cd782b49d6ff14dc98e5dced492aa8a8c65425227da5da6aafe22523c67f035a272c599bb89cfe803c1db6311e44bed3042fc25487
   languageName: node
   linkType: hard
 
