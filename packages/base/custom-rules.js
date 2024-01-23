@@ -22,6 +22,10 @@ module.exports = {
         'react/prop-types': 'off',
         'react/require-default-props': 'off',
         'react/function-component-definition': 'off',
-        'react/jsx-props-no-spreading': 'off'
+        'react/jsx-props-no-spreading': 'off',
+        'react-refresh/only-export-components': [
+            'warn',
+            { allowConstantExport: true },
+        ],
     }
 };
