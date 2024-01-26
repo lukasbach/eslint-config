@@ -266,7 +266,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@lukasbach/eslint-config-base@^1.0.4, @lukasbach/eslint-config-base@workspace:packages/base":
+"@lukasbach/eslint-config-base@^1.0.5, @lukasbach/eslint-config-base@workspace:packages/base":
   version: 0.0.0-use.local
   resolution: "@lukasbach/eslint-config-base@workspace:packages/base"
   dependencies:
@@ -284,6 +284,7 @@ __metadata:
     eslint-plugin-react: ^7.33.2
     eslint-plugin-react-hooks: ^4.6.0
     eslint-plugin-react-refresh: ^0.4.5
+    eslint-plugin-unused-imports: ^3.0.0
     prettier: ^3.2.2
   peerDependencies:
     "@typescript-eslint/eslint-plugin": ">=6.19.0"
@@ -306,7 +307,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@lukasbach/eslint-config-deps@workspace:packages/deps"
   dependencies:
-    "@lukasbach/eslint-config-base": ^1.0.4
+    "@lukasbach/eslint-config-base": ^1.0.5
     "@types/node": ^18.15.10
     "@typescript-eslint/eslint-plugin": ^6.19.0
     "@typescript-eslint/parser": ^6.19.0
@@ -321,6 +322,7 @@ __metadata:
     eslint-plugin-react: ^7.33.2
     eslint-plugin-react-hooks: ^4.6.0
     eslint-plugin-react-refresh: ^0.4.5
+    eslint-plugin-unused-imports: ^3.0.0
     prettier: ^3.2.2
   peerDependencies:
     eslint: ">=8.36.0"
@@ -2717,6 +2719,28 @@ __metadata:
   peerDependencies:
     eslint: ^3 || ^4 || ^5 || ^6 || ^7 || ^8
   checksum: b4c3d76390b0ae6b6f9fed78170604cc2c04b48e6778a637db339e8e3911ec9ef22510b0ae77c429698151d0f1b245f282177f384105b6830e7b29b9c9b26610
+  languageName: node
+  linkType: hard
+
+"eslint-plugin-unused-imports@npm:^3.0.0":
+  version: 3.0.0
+  resolution: "eslint-plugin-unused-imports@npm:3.0.0"
+  dependencies:
+    eslint-rule-composer: ^0.3.0
+  peerDependencies:
+    "@typescript-eslint/eslint-plugin": ^6.0.0
+    eslint: ^8.0.0
+  peerDependenciesMeta:
+    "@typescript-eslint/eslint-plugin":
+      optional: true
+  checksum: 51666f62cc8dccba2895ced83f3c1e0b78b68c357e17360e156c4db548bfdeda34cbd8725192fb4903f22d5069400fb22ded6039631df01ee82fd618dc307247
+  languageName: node
+  linkType: hard
+
+"eslint-rule-composer@npm:^0.3.0":
+  version: 0.3.0
+  resolution: "eslint-rule-composer@npm:0.3.0"
+  checksum: c2f57cded8d1c8f82483e0ce28861214347e24fd79fd4144667974cd334d718f4ba05080aaef2399e3bbe36f7d6632865110227e6b176ed6daa2d676df9281b1
   languageName: node
   linkType: hard
 

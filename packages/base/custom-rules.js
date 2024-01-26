@@ -17,6 +17,27 @@ module.exports = {
             "error",
             "never"
         ],
+
+        // no unused variables and imports
+        "no-unused-vars": "off",
+        "unused-imports/no-unused-imports": "error",
+        "unused-imports/no-unused-vars": [
+            "warn",
+            {
+                "vars": "all",
+                "varsIgnorePattern": "^_",
+                "args": "after-used",
+                "argsIgnorePattern": "^_"
+            }
+        ],
+
+        // sort imports
+        "sort-imports": [
+            "warn",
+            {
+                "ignoreDeclarationSort": true
+            }
+        ]
     },
     react: {
         'react/prop-types': 'off',
