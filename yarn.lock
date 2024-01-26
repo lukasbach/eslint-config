@@ -194,9 +194,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@lerna/create@npm:8.0.1":
-  version: 8.0.1
-  resolution: "@lerna/create@npm:8.0.1"
+"@lerna/create@npm:8.0.2":
+  version: 8.0.2
+  resolution: "@lerna/create@npm:8.0.2"
   dependencies:
     "@npmcli/run-script": 7.0.2
     "@nx/devkit": ">=17.1.2 < 18"
@@ -262,11 +262,11 @@ __metadata:
     write-pkg: 4.0.0
     yargs: 17.7.2
     yargs-parser: 21.1.1
-  checksum: ad8f7aff54b9281d0ab5c35746ac2a909c17a3144ebbd71819663f8d8b4fcd44e8b40386e04d2334d40c26ffa95c83b80ef6f7b5cae9caf237a616166c7aaa5e
+  checksum: 28bacadca88dc8d3a78126108bd6d28630a7fa748e2c6d942b3a3b978047a696e3422b8b6d6bf375c9aa9101f72b94788bd6acfa01a12a49932aa792fb078c4d
   languageName: node
   linkType: hard
 
-"@lukasbach/eslint-config-base@^1.0.5, @lukasbach/eslint-config-base@workspace:packages/base":
+"@lukasbach/eslint-config-base@^1.0.6, @lukasbach/eslint-config-base@workspace:packages/base":
   version: 0.0.0-use.local
   resolution: "@lukasbach/eslint-config-base@workspace:packages/base"
   dependencies:
@@ -307,7 +307,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@lukasbach/eslint-config-deps@workspace:packages/deps"
   dependencies:
-    "@lukasbach/eslint-config-base": ^1.0.5
+    "@lukasbach/eslint-config-base": ^1.0.6
     "@types/node": ^18.15.10
     "@typescript-eslint/eslint-plugin": ^6.19.0
     "@typescript-eslint/parser": ^6.19.0
@@ -4584,10 +4584,10 @@ __metadata:
   linkType: hard
 
 "lerna@npm:^8.0.1":
-  version: 8.0.1
-  resolution: "lerna@npm:8.0.1"
+  version: 8.0.2
+  resolution: "lerna@npm:8.0.2"
   dependencies:
-    "@lerna/create": 8.0.1
+    "@lerna/create": 8.0.2
     "@npmcli/run-script": 7.0.2
     "@nx/devkit": ">=17.1.2 < 18"
     "@octokit/plugin-enterprise-rest": 6.0.1
@@ -4663,7 +4663,7 @@ __metadata:
     yargs-parser: 21.1.1
   bin:
     lerna: dist/cli.js
-  checksum: c353eedbb3400b7f8ede987d384156ff4c6532a32532c9a7135401a92a3ead9d3cd68c5c3aa4b540d0978b6dcbacf3deffc6628fdff1ded6541c9250976ef7ab
+  checksum: 27a7b59744f0a3eb55aa7e81157b8064ba8127aece894741e848e664f30e54e7f06a79e9bf94d27b7da762e9109e748b3b562860e7dc7aaac6b260f8e3e53051
   languageName: node
   linkType: hard
 
@@ -7554,11 +7554,11 @@ __metadata:
 
 "typescript@patch:typescript@>=3 < 6#~builtin<compat/typescript>":
   version: 5.3.3
-  resolution: "typescript@patch:typescript@npm%3A5.3.3#~builtin<compat/typescript>::version=5.3.3&hash=85af82"
+  resolution: "typescript@patch:typescript@npm%3A5.3.3#~builtin<compat/typescript>::version=5.3.3&hash=e012d7"
   bin:
     tsc: bin/tsc
     tsserver: bin/tsserver
-  checksum: f61375590b3162599f0f0d5b8737877ac0a7bc52761dbb585d67e7b8753a3a4c42d9a554c4cc929f591ffcf3a2b0602f65ae3ce74714fd5652623a816862b610
+  checksum: 4e604a9e107ce0c23b16a2f8d79d0531d4d8fe9ebbb7a8c395c66998c39892f0e0a071ef0b0d4e66420a8ec2b8d6cfd9cdb29ba24f25b37cba072e9282376df9
   languageName: node
   linkType: hard
 
